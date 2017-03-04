@@ -1,22 +1,17 @@
-package org.hello;
+package org.project;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class HelloActivity extends Activity {
+public class Phone extends Activity {
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.hello_layout);
-    }
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        TextView textView = (TextView) findViewById(R.id.text_view);
-        textView.setText("Hello world!");
-    }
-
+      TextView text = new TextView(this);
+      text.setText("Bonjour, vous me devez 1 000 000€.");
+      setContentView(text);
+  }
 }
