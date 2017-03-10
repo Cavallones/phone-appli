@@ -1,0 +1,16 @@
+---
+
+dist: trusty
+sudo: required
+
+before_script:
+  - sudo ci/before_script_debian.sh
+
+script:
+  - sudo ci/script.sh
+
+after_script:
+  - sudo ci/after_script.sh
+
+notifications:
+  email: false
