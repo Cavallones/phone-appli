@@ -1,4 +1,7 @@
 # phone-appli
+
+[![Build Status](https://travis-ci.org/Cavallones/phone-appli.svg?branch=master)](https://travis-ci.org/Cavallones/phone-appli)
+
 HMI Project, meant to let the user making swag stuff
 
 hello, i'm a nice person, hope you're happy to know it !
