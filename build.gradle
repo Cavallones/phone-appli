@@ -6,18 +6,26 @@ version = '0.1.0'
 
 description = """"""
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
 }
 
+
+buildscript {
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = JavaVersion.VERSION_1_7
+        targetCompatibility = JavaVersion.VERSION_1_7
+    }
+}
 
 repositories {
 
      maven { url "https://repo.maven.apache.org/maven2" }
 }
 dependencies {
+		compile fileTree(include: ['*.jar'], dir: 'libs')
     compile(group: 'com.google.android', name: 'android', version:'4.1.1.4') {
        /* This dependency was originally in the Maven provided scope, but the project was not of type war.
        This behavior is not yet supported by Gradle, so this dependency has been converted to a compile dependency.
