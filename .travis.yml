@@ -4,7 +4,7 @@ dist: trusty
 sudo: required
 
 before_script:
-  - sudo sh ./ci/before_script_debian.sh
+  - sudo sh ./ci/before_script_ubuntu.sh
 
 script:
   - sudo sh ./ci/script.sh
