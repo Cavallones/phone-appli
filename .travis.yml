@@ -4,13 +4,13 @@ dist: trusty
 sudo: required
 
 before_script:
-  - sudo ci/before_script_debian.sh
+  - sudo sh ./ci/before_script_ubuntu.sh
 
 script:
-  - sudo ci/script.sh
+  - sudo sh ./ci/script.sh
 
 after_script:
-  - sudo ci/after_script.sh
+  - sudo sh ./ci/after_script.sh
 
 notifications:
   email: false
