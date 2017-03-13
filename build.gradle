@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'maven'
 
-group = 'org.project'
+group = 'org.example.test'
 version = '0.1.0'
 
 description = """"""
