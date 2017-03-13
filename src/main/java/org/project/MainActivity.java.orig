@@ -1,4 +1,4 @@
-package org.example.test;
+package org.ihm.chiant;
 
 import android.app.Activity;
 import android.os.Bundle;
