@@ -1,9 +1,11 @@
-package truc.ihm.chiant;
+package fr.cavallones.phoneappli;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.view.View;
+
+import fr.cavallones.phoneappli.R;
 
 public class MainActivity extends Activity {
 
