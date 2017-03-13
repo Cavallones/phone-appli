@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'maven'
 
-group = 'org.example.test'
+group = 'truc.ihm.chiant'
 version = '0.1.0'
 
 description = """"""
