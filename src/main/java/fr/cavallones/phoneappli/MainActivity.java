@@ -5,6 +5,11 @@ import android.os.Bundle;
 import android.widget.TextView;
 import android.view.View;
 
+<<<<<<< HEAD
+=======
+import fr.cavallones.phoneappli.R;
+
+>>>>>>> 49c171ac6cfaae2f2c312f16b05513b08fb6830b
 public class MainActivity extends Activity {
 
     @Override
