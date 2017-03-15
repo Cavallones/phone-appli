@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
@@ -8,5 +8,54 @@
     android:id="@+id/text_view"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
+    android:text="Test"
     />
+
+  <Button
+    android:id="@+id/button_center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Centering"
+    />
+
+  <Button
+    android:id="@+id/button_strong"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/text_view"
+    android:text="Strong Font"
+    />
+
+  <Button
+    android:id="@+id/button_underline"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/button_center"
+    android:text="Underline text"
+    />
+
+  <Button
+    android:id="@+id/button_italic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_alignEnd="@+id/button_underline"
+    android:text="Italic text"
+    />
+
+  <Button
+    android:id="@+id/button_ponctuation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/button_underline"
+    android:text="Ponctuation Symbols"
+  />
+
+  <Button
+    android:id="@+id/button_see_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/button_ponctuation"
+    android:text="See text"
+  />
+
 </LinearLayout>
